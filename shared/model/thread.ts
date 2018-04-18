@@ -1,5 +1,5 @@
 export interface Thread {
     id: number;
-    messageId: number[];
+    messageIds: number[];
     participants: {[key: number]: number};
 }
